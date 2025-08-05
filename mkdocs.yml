@@ -1,1 +1,71 @@
-site_name: My Docs
+site_name: Scbz's blog of learning Infinitensor 2025 Summer
+site_url: https://scbz4learning.github.io/Infinitensor
+repo_url: https://github.com/scbz4learning/Infinitensor
+remote_branch: pages 
+remote_name: scbz4learning
+
+theme:
+  name: material
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
+
+extra:
+  homepage: https://scbz4learning.github.io/Infinitensor
+  features:
+    - navigation.expand
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true  
+  - exclude:
+      glob:
+        - '**/sp25-student/*'
+        - '**/debugging-guide/*'
+      regex:
+        - '.*sp25-student.*' 
+        - '.*debugging-guide.*' 
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

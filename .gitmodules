@@ -1,0 +1,3 @@
+[submodule "learning-tools"]
+	path = learning-tools
+	url = https://github.com/scbz4learning/learning-tools
