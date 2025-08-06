@@ -1,3 +1,12 @@
 [submodule "learning-tools"]
 	path = learning-tools
 	url = https://github.com/scbz4learning/learning-tools
+[submodule "Learning-CUDA"]
+	path = Learning-CUDA
+	url = git@github.com:scbz4learning/Learning-CUDA.git
+[submodule "llaisys"]
+	path = llaisys
+	url = git@github.com:scbz4learning/llaisys.git
+[submodule "TinyInfiniTrain"]
+	path = TinyInfiniTrain
+	url = git@github.com:scbz4learning/TinyInfiniTrain.git
