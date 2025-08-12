@@ -10,3 +10,6 @@
 [submodule "TinyInfiniTrain"]
 	path = TinyInfiniTrain
 	url = git@github.com:scbz4learning/TinyInfiniTrain.git
+[submodule "TinyInfiniTensor"]
+	path = TinyInfiniTensor
+	url = git@github.com:LearningInfiniTensor/TinyInfiniTensor.git
