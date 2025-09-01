@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://scbz4learning.github.io/Infinitensor/</loc>
-         <lastmod>2025-08-06</lastmod>
+         <lastmod>2025-09-01</lastmod>
     </url>
     <url>
-         <loc>https://scbz4learning.github.io/Infinitensor/0/</loc>
-         <lastmod>2025-08-06</lastmod>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_0/0-1-rustlings/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_0/0-2-learning-cxx/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_1/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_1/1_cuda/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_1/2_TinyInfiniTrain/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/Stage_1/5_TinyInfiniTensor/</loc>
+         <lastmod>2025-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://scbz4learning.github.io/Infinitensor/_Extra/01-constexpr/</loc>
+         <lastmod>2025-09-01</lastmod>
     </url>
 </urlset>
