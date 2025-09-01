@@ -12,4 +12,7 @@
 	url = git@github.com:scbz4learning/TinyInfiniTrain.git
 [submodule "TinyInfiniTensor"]
 	path = TinyInfiniTensor
-	url = git@github.com:LearningInfiniTensor/TinyInfiniTensor.git
+	url = git@github.com:scbz4learning/TinyInfiniTensor.git
+[submodule "Triton-Puzzles"]
+	path = Triton-Puzzles
+	url = git@github.com:scbz4learning/Triton-Puzzles.git
